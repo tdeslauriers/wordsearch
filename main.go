@@ -35,7 +35,7 @@ func main() {
 	}
 
 	// get 20 random words
-	size := 27
+	size := 25
 	words := make([]string, 0, size)
 	r, _ := regexp.Compile("^[a-zA-Z]+$") // regex: no numbers or punctuation
 	for i := 0; i < size; i++ {
