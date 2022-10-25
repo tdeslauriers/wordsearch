@@ -13,7 +13,8 @@ My dad made a wordsearch app in the 80's and it seemed like a fun *puzzle* to no
 **Notes:**
 
 1. At first, I was sorting the word list longest to shortest.  
-* This makes the brute-forcing go faster, but it also felt too deterministic omitting sorting never failed to produce a matrix, so I removed it.
+    * This makes the brute-forcing go faster, but it also felt too deterministic. 
+    * Omitting sorting never failed to produce a matrix, so I removed it.
 2. A puzzle will be successfully produced about 75% of the time if you make the puzzle the size of the longest word, instead of default to 20 rows/columns.
 2. I used cryptographic random numbers for no reason; I am sure math/rand was fine for this purpose.
 1. For a 20 row/column puzzle, 25 appears to be the highest number of words it will reliable resolve for.  At 27, it becomes 50/50.  
