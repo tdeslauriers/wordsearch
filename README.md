@@ -5,8 +5,8 @@ My dad made a wordsearch app in the 80's and it seemed like a fun *puzzle* to no
 1. This reads a dictionary text file.
 1. Randomly selects 20 words.
 1. Creates a matrix with either 20 positions, or adjusts for a word length larger than 20 letters.
-1. Uses recursion (random positions + orientations to cycle thru trying to place the word in the puzzle.
-1. Adds in randomly chose letters to emplty spaces.
+1. Uses recursion (random positions + orientations) to cycle thru trying to place the word in the puzzle.
+1. Adds in randomly chose letters to empty spaces.
 1. Outputs to console.
 
 ###
