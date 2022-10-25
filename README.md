@@ -13,7 +13,7 @@ My dad made a wordsearch app in the 80's and it seemed like a fun *puzzle* to no
 **Notes:**
 
 1. At first, I was sorting the word list longest to shortest.  
-* This makes the brute-forcing go faster, but it also felt too deterministic and the bruteforcing never failed to produce a matrix without sorting, so I removed it.
+* This makes the brute-forcing go faster, but it also felt too deterministic omitting sorting never failed to produce a matrix, so I removed it.
 2. I used cryptographic random numbers for no reason; I am sure math/rand was fine for this purpose.
 
 ## Sample Output
