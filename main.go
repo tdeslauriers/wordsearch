@@ -35,9 +35,10 @@ func main() {
 	}
 
 	// get 20 random words
-	words := make([]string, 0, 20)
+	size := 27
+	words := make([]string, 0, size)
 	r, _ := regexp.Compile("^[a-zA-Z]+$") // regex: no numbers or punctuation
-	for i := 0; i < 20; i++ {
+	for i := 0; i < size; i++ {
 		word := getValidPuzzleWord(all, r) // also gets rid of two letter words
 		words = append(words, strings.ToUpper(word))
 	}
