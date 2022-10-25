@@ -18,6 +18,7 @@ My dad made a wordsearch app in the 80's and it seemed like a fun *puzzle* to no
 2. A puzzle will be successfully produced about 75% of the time if you make the puzzle the size of the longest word, instead of default to 20 rows/columns.
 2. I used cryptographic random numbers for no reason; I am sure math/rand was fine for this purpose.
 1. For a 20 row/column puzzle, 25 appears to be the highest number of words it will reliable resolve for.  At 27, it becomes 50/50.  
+1. Many of the words in this dictionary would fail the scrabble sniff-test.  :P
 
 ## Sample Output
 
